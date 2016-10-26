@@ -1,0 +1,517 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1B9752971C6223250099764B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9752961C6223250099764B /* AppDelegate.swift */; };
+		1B9752991C6223250099764B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9752981C6223250099764B /* ViewController.swift */; };
+		1B97529C1C6223250099764B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B97529A1C6223250099764B /* Main.storyboard */; };
+		1B97529E1C6223250099764B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B97529D1C6223250099764B /* Assets.xcassets */; };
+		1B9752A11C6223250099764B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B97529F1C6223250099764B /* LaunchScreen.storyboard */; };
+		1B9752AC1C6223250099764B /* sampleGetDataFromElectricPowerAPITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9752AB1C6223250099764B /* sampleGetDataFromElectricPowerAPITests.swift */; };
+		1B9752B71C6223260099764B /* sampleGetDataFromElectricPowerAPIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9752B61C6223260099764B /* sampleGetDataFromElectricPowerAPIUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1B9752A81C6223250099764B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B97528B1C6223250099764B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B9752921C6223250099764B;
+			remoteInfo = sampleGetDataFromElectricPowerAPI;
+		};
+		1B9752B31C6223260099764B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1B97528B1C6223250099764B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B9752921C6223250099764B;
+			remoteInfo = sampleGetDataFromElectricPowerAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B9752931C6223250099764B /* sampleGetDataFromElectricPowerAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sampleGetDataFromElectricPowerAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B9752961C6223250099764B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1B9752981C6223250099764B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1B97529B1C6223250099764B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1B97529D1C6223250099764B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1B9752A01C6223250099764B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1B9752A21C6223250099764B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B9752A71C6223250099764B /* sampleGetDataFromElectricPowerAPITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleGetDataFromElectricPowerAPITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B9752AB1C6223250099764B /* sampleGetDataFromElectricPowerAPITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleGetDataFromElectricPowerAPITests.swift; sourceTree = "<group>"; };
+		1B9752AD1C6223250099764B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B9752B21C6223260099764B /* sampleGetDataFromElectricPowerAPIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleGetDataFromElectricPowerAPIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B9752B61C6223260099764B /* sampleGetDataFromElectricPowerAPIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleGetDataFromElectricPowerAPIUITests.swift; sourceTree = "<group>"; };
+		1B9752B81C6223260099764B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1B9752901C6223250099764B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B9752A41C6223250099764B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B9752AF1C6223260099764B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B97528A1C6223250099764B = {
+			isa = PBXGroup;
+			children = (
+				1B9752951C6223250099764B /* sampleGetDataFromElectricPowerAPI */,
+				1B9752AA1C6223250099764B /* sampleGetDataFromElectricPowerAPITests */,
+				1B9752B51C6223260099764B /* sampleGetDataFromElectricPowerAPIUITests */,
+				1B9752941C6223250099764B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1B9752941C6223250099764B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B9752931C6223250099764B /* sampleGetDataFromElectricPowerAPI.app */,
+				1B9752A71C6223250099764B /* sampleGetDataFromElectricPowerAPITests.xctest */,
+				1B9752B21C6223260099764B /* sampleGetDataFromElectricPowerAPIUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1B9752951C6223250099764B /* sampleGetDataFromElectricPowerAPI */ = {
+			isa = PBXGroup;
+			children = (
+				1B9752961C6223250099764B /* AppDelegate.swift */,
+				1B9752981C6223250099764B /* ViewController.swift */,
+				1B97529A1C6223250099764B /* Main.storyboard */,
+				1B97529D1C6223250099764B /* Assets.xcassets */,
+				1B97529F1C6223250099764B /* LaunchScreen.storyboard */,
+				1B9752A21C6223250099764B /* Info.plist */,
+			);
+			path = sampleGetDataFromElectricPowerAPI;
+			sourceTree = "<group>";
+		};
+		1B9752AA1C6223250099764B /* sampleGetDataFromElectricPowerAPITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B9752AB1C6223250099764B /* sampleGetDataFromElectricPowerAPITests.swift */,
+				1B9752AD1C6223250099764B /* Info.plist */,
+			);
+			path = sampleGetDataFromElectricPowerAPITests;
+			sourceTree = "<group>";
+		};
+		1B9752B51C6223260099764B /* sampleGetDataFromElectricPowerAPIUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1B9752B61C6223260099764B /* sampleGetDataFromElectricPowerAPIUITests.swift */,
+				1B9752B81C6223260099764B /* Info.plist */,
+			);
+			path = sampleGetDataFromElectricPowerAPIUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1B9752921C6223250099764B /* sampleGetDataFromElectricPowerAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B9752BB1C6223260099764B /* Build configuration list for PBXNativeTarget "sampleGetDataFromElectricPowerAPI" */;
+			buildPhases = (
+				1B97528F1C6223250099764B /* Sources */,
+				1B9752901C6223250099764B /* Frameworks */,
+				1B9752911C6223250099764B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sampleGetDataFromElectricPowerAPI;
+			productName = sampleGetDataFromElectricPowerAPI;
+			productReference = 1B9752931C6223250099764B /* sampleGetDataFromElectricPowerAPI.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1B9752A61C6223250099764B /* sampleGetDataFromElectricPowerAPITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B9752BE1C6223260099764B /* Build configuration list for PBXNativeTarget "sampleGetDataFromElectricPowerAPITests" */;
+			buildPhases = (
+				1B9752A31C6223250099764B /* Sources */,
+				1B9752A41C6223250099764B /* Frameworks */,
+				1B9752A51C6223250099764B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B9752A91C6223250099764B /* PBXTargetDependency */,
+			);
+			name = sampleGetDataFromElectricPowerAPITests;
+			productName = sampleGetDataFromElectricPowerAPITests;
+			productReference = 1B9752A71C6223250099764B /* sampleGetDataFromElectricPowerAPITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1B9752B11C6223260099764B /* sampleGetDataFromElectricPowerAPIUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B9752C11C6223260099764B /* Build configuration list for PBXNativeTarget "sampleGetDataFromElectricPowerAPIUITests" */;
+			buildPhases = (
+				1B9752AE1C6223260099764B /* Sources */,
+				1B9752AF1C6223260099764B /* Frameworks */,
+				1B9752B01C6223260099764B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1B9752B41C6223260099764B /* PBXTargetDependency */,
+			);
+			name = sampleGetDataFromElectricPowerAPIUITests;
+			productName = sampleGetDataFromElectricPowerAPIUITests;
+			productReference = 1B9752B21C6223260099764B /* sampleGetDataFromElectricPowerAPIUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1B97528B1C6223250099764B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Eriko Ichinohe";
+				TargetAttributes = {
+					1B9752921C6223250099764B = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
+					};
+					1B9752A61C6223250099764B = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
+						TestTargetID = 1B9752921C6223250099764B;
+					};
+					1B9752B11C6223260099764B = {
+						CreatedOnToolsVersion = 7.2;
+						LastSwiftMigration = 0800;
+						TestTargetID = 1B9752921C6223250099764B;
+					};
+				};
+			};
+			buildConfigurationList = 1B97528E1C6223250099764B /* Build configuration list for PBXProject "sampleGetDataFromElectricPowerAPI" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1B97528A1C6223250099764B;
+			productRefGroup = 1B9752941C6223250099764B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1B9752921C6223250099764B /* sampleGetDataFromElectricPowerAPI */,
+				1B9752A61C6223250099764B /* sampleGetDataFromElectricPowerAPITests */,
+				1B9752B11C6223260099764B /* sampleGetDataFromElectricPowerAPIUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B9752911C6223250099764B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9752A11C6223250099764B /* LaunchScreen.storyboard in Resources */,
+				1B97529E1C6223250099764B /* Assets.xcassets in Resources */,
+				1B97529C1C6223250099764B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B9752A51C6223250099764B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B9752B01C6223260099764B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1B97528F1C6223250099764B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9752991C6223250099764B /* ViewController.swift in Sources */,
+				1B9752971C6223250099764B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B9752A31C6223250099764B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9752AC1C6223250099764B /* sampleGetDataFromElectricPowerAPITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B9752AE1C6223260099764B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1B9752B71C6223260099764B /* sampleGetDataFromElectricPowerAPIUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1B9752A91C6223250099764B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B9752921C6223250099764B /* sampleGetDataFromElectricPowerAPI */;
+			targetProxy = 1B9752A81C6223250099764B /* PBXContainerItemProxy */;
+		};
+		1B9752B41C6223260099764B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1B9752921C6223250099764B /* sampleGetDataFromElectricPowerAPI */;
+			targetProxy = 1B9752B31C6223260099764B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1B97529A1C6223250099764B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B97529B1C6223250099764B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1B97529F1C6223250099764B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1B9752A01C6223250099764B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1B9752B91C6223260099764B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1B9752BA1C6223260099764B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1B9752BC1C6223260099764B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sampleGetDataFromElectricPowerAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erikoichinohe.sampleGetDataFromElectricPowerAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1B9752BD1C6223260099764B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = sampleGetDataFromElectricPowerAPI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erikoichinohe.sampleGetDataFromElectricPowerAPI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1B9752BF1C6223260099764B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sampleGetDataFromElectricPowerAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erikoichinohe.sampleGetDataFromElectricPowerAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sampleGetDataFromElectricPowerAPI.app/sampleGetDataFromElectricPowerAPI";
+			};
+			name = Debug;
+		};
+		1B9752C01C6223260099764B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = sampleGetDataFromElectricPowerAPITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erikoichinohe.sampleGetDataFromElectricPowerAPITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sampleGetDataFromElectricPowerAPI.app/sampleGetDataFromElectricPowerAPI";
+			};
+			name = Release;
+		};
+		1B9752C21C6223260099764B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sampleGetDataFromElectricPowerAPIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erikoichinohe.sampleGetDataFromElectricPowerAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = sampleGetDataFromElectricPowerAPI;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1B9752C31C6223260099764B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = sampleGetDataFromElectricPowerAPIUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.erikoichinohe.sampleGetDataFromElectricPowerAPIUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = sampleGetDataFromElectricPowerAPI;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1B97528E1C6223250099764B /* Build configuration list for PBXProject "sampleGetDataFromElectricPowerAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B9752B91C6223260099764B /* Debug */,
+				1B9752BA1C6223260099764B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B9752BB1C6223260099764B /* Build configuration list for PBXNativeTarget "sampleGetDataFromElectricPowerAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B9752BC1C6223260099764B /* Debug */,
+				1B9752BD1C6223260099764B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B9752BE1C6223260099764B /* Build configuration list for PBXNativeTarget "sampleGetDataFromElectricPowerAPITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B9752BF1C6223260099764B /* Debug */,
+				1B9752C01C6223260099764B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1B9752C11C6223260099764B /* Build configuration list for PBXNativeTarget "sampleGetDataFromElectricPowerAPIUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1B9752C21C6223260099764B /* Debug */,
+				1B9752C31C6223260099764B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1B97528B1C6223250099764B /* Project object */;
+}
